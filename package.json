@@ -4,6 +4,7 @@
   "description": "Gogo - React Bootstrap 4 Admin Dashboard Template",
   "private": true,
   "dependencies": {
+    "@capdilla/react-d-form": "^2.0.4",
     "@glidejs/glide": "^3.4.1",
     "availity-reactstrap-validation": "^2.6.1",
     "axios": "^0.19.2",
@@ -51,6 +52,7 @@
     "yup": "^0.29.1"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
