@@ -8,6 +8,7 @@ import GlideComponent from '../components/carousel/GlideComponent';
 import { scroller } from 'react-scroll';
 import Headroom from 'react-headroom';
 import AppLayout from '../layout/AppLayout';
+import DataList from './pages/product/data-list';
 
 const Home = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -68,7 +69,11 @@ const Home = () => {
     if (activeTab !== tab) setActiveTab(tab);
   };
 
-  return <AppLayout>Hola</AppLayout>;
+  return (
+    <AppLayout>
+      <DataList />
+    </AppLayout>
+  );
 };
 
 export default Home;
